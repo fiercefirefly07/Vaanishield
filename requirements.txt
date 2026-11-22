@@ -1,0 +1,27 @@
+
+# VaaniShield Python Dependencies
+# Python 3.11
+
+# Backend API
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# AI / ML
+torch==2.11.0
+onnxruntime-gpu
+numpy
+
+# Audio processing
+librosa
+soundfile
+SpeechRecognition
+
+# Live audio
+sounddevice
+websockets
+
+# Model evaluation
+scikit-learn
+datasets

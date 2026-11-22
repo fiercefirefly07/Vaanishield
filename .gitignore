@@ -1,0 +1,85 @@
+﻿# ==========================================
+# VAANISHIELD - GIT IGNORE
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Hugging Face and model caches
+.cache/
+**/.cache/
+huggingface/
+**/huggingface/
+
+# AI model binaries
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Local datasets and recordings
+data/raw/
+data/processed/
+data/interim/
+data/external/
+recordings/
+uploads/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test outputs
+test_outputs/
+coverage/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# All local data: voiceprints, databases, recordings, datasets and diagnostic reports
+data/
